@@ -1,0 +1,24 @@
+# Exported with the Erfurt API - http://aksw.org/Projects/Erfurt
+
+@base <http://aksw.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sysont: <http://ns.ontowiki.net/SysOnt/> .
+@prefix aksw: <http://aksw.org/schema/> .
+@prefix aksworg: <http://aksw.org/> .
+@prefix site: <http://ns.ontowiki.net/SysOnt/Site/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ov: <http://open.vocab.org/terms/> .
+@prefix projects: <http://aksw.org/Projects/> .
+@prefix website: <http://localhost:8080/> .
+
+website:SimonBin aksw:publicationTag "sbin" ;
+  aksw:room "24" ;
+  site:templateOption "minimal" ;
+  ov:businessCard <http://aksw.org/VCard/InfAIOfficeLeipzig> ;
+  a foaf:Person ;
+  foaf:currentProject projects:DLLearner, projects:SAKE, projects:SANSA_Stack, projects:SMLBench ;
+  foaf:depiction <http://ldap.aksw.org/pic/sn/Bin> ;
+  foaf:familyName "Bin" ;
+  foaf:mbox <mailto:sbin@informatik.uni-leipzig.de> ;
+  foaf:name "Simon Bin" ;
+  foaf:phone <tel:+49-341-22903736> .

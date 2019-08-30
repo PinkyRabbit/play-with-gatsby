@@ -13,6 +13,20 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+
+    // RDF processing
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `rdfData`,
+        path: `${__dirname}/data`,
+      },
+    },
+
+
+
+
+
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
